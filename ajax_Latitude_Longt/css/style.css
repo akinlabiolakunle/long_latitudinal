@@ -1,0 +1,46 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../image/p2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.overlay {
+ content: '';
+    min-height: 100%;
+    width: 100%;
+    background-color:rgba(53, 230, 98, 0.5);
+    position: absolute;
+}
+section{
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: monospace;
+    font-weight: 700;
+    line-height: 2;
+    box-shadow: 2px 3px 0px 0px rgba(4,0,0,0.3);
+}
+
+form{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 85px
+}
+.control-label {
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+#map{
+    text-align: center;}
